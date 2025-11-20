@@ -3,13 +3,19 @@
   let button=document.querySelector("button")
 function getFormvalue() {
     //Write your code here
+	
+    button.style.backgroundColor = "blue";
 	let v1=input1.value.trim();
 	let v2=input2.value.trim();
 	if(v1==""||v2==""){
 		alert("fill the input fields")
+		
+    button.style.backgroundColor = "";
 	return;
 	}else{
 		alert(v1 +" " + v2);
+    button.style.backgroundColor ="";
 	}
+	
 }
 button.addEventListener("click",getFormvalue);
