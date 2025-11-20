@@ -9,7 +9,7 @@ function getFormvalue() {
 		alert("fill the input fields")
 	return;
 	}else{
-		alert(v1 + v2);
+		alert(v1 +" " + v2);
 	}
 }
 button.addEventListener("click",getFormvalue);
