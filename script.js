@@ -13,8 +13,11 @@ function getFormvalue() {
   
 	return;
 	}else{
+		if(v1.endsWith("-")){
+				alert(v1 + v2);
+		}else{
 		alert(v1 +" " + v2);
-  
+		}
 	}
 	
 }
